@@ -22,8 +22,12 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'figaro', '~> 1.2'
 
-# up uploading image
+# for uploading image
 gem 'image_processing', '~> 1.12', '>= 1.12.1'
+
+# for picking dates
+gem 'bootstrap-datepicker-rails', '~> 1.9', '>= 1.9.0.1'
+gem 'jquery-rails', '~> 4.4'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
