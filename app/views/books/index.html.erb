@@ -9,6 +9,7 @@
       <th>Content</th>
       <th>Publish date</th>
       <th>ISBN</th>
+      <th>Image</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -20,6 +21,7 @@
         <td><%= book.content %></td>
         <td><%= book.publish_date %></td>
         <td><%= book.isbn %></td>
+        <td><%= book.image.present? %></td>
         <td><%= link_to 'Show', book %></td>
         <td><%= link_to 'Edit', edit_book_path(book) %></td>
         <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>

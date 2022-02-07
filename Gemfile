@@ -23,7 +23,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'figaro', '~> 1.2'
 
 # for uploading image
-gem 'image_processing', '~> 1.12', '>= 1.12.1'
+gem 'carrierwave', '~> 2.2', '>= 2.2.2'
 
 # for picking dates
 gem 'bootstrap-datepicker-rails', '~> 1.9', '>= 1.9.0.1'
