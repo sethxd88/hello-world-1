@@ -20,5 +20,12 @@
   <%= @book.publish_date %>
 </p>
 
+<p>
+  <strong>Image</strong>
+  <div>
+    <%= image_tag @book.image_url if @book.image_url.present? %>
+  </div>
+</p>
+
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>

@@ -26,7 +26,12 @@
 
   <div class="field">
     <%= form.label :publish_date %>
-    <%= form.date_select :publish_date %>
+  <%= form.date_select :publish_date %>s
+  </div>
+
+   <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image, id: :books_image, class: "form-control" %>
   </div>
 
   <div class="actions">
