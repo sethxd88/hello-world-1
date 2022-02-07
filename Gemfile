@@ -21,6 +21,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'figaro', '~> 1.2'
+
+# up uploading image
 gem 'image_processing', '~> 1.12', '>= 1.12.1'
 
 group :development, :test do
