@@ -18,7 +18,7 @@ tr:nth-child(even) {
 th {
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: left;
+  text-align: center;
   background-color: #76b7f3;
   color: black;
 }

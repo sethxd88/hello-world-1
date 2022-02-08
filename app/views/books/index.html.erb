@@ -21,7 +21,7 @@
         <td><%= book.content %></td>
         <td><%= book.publish_date %></td>
         <td><%= book.isbn %></td>
-        <td><%= book.image.present? %></td>
+        <td style = "text-align: center"><%= image_tag book.image_url, style: "width: 150px" if book.image_url.present? %></td>
         <td><%= link_to 'Show', book %></td>
         <td><%= link_to 'Edit', edit_book_path(book) %></td>
         <td><%= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' } %></td>
