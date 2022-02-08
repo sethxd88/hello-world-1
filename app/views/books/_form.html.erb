@@ -26,17 +26,12 @@
 
   <div class="field">
     <%= form.label :publish_date %>
-    <%= form.date_select :publish_date %>s
+    <%= form.text_field :publish_date, "data-provide" => 'datepicker', placeholder: "select date" %>
   </div>
 
   <div class="field">
-    <%= form.label :publish_date %>
-    <%= form.text_field :publish_date, class: 'form-control datepicker' %>s
-  </div>
-
-   <div class="field">
     <%= form.label :image %>
-    <%= form.file_field :image, id: :books_image, class: "form-control" %>
+    <%= form.file_field :image %>
   </div>
 
   <div class="actions">
