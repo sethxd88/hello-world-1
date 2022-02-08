@@ -23,7 +23,7 @@
 <p>
   <strong>Image</strong>
   <div>
-    <%= image_tag @book.image_url if @book.image_url.present? %>
+    <%= image_tag @book.image_url, style: "width: 300px" if @book.image_url.present? %>
   </div>
 </p>
 

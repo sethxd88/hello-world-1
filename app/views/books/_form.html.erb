@@ -26,7 +26,8 @@
 
   <div class="field">
     <%= form.label :publish_date %>
-    <%= form.text_field :publish_date, "data-provide" => 'datepicker', placeholder: "select date" %>
+    <%#= form.text_field :publish_date, "data-provide" => 'datepicker', placeholder: "select date" %>
+    <%= form.date_field :publish_date %>
   </div>
 
   <div class="field">
